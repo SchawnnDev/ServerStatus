@@ -1,0 +1,4 @@
+name: ServerStatus
+main: fr.schawnndev.spigot.Main
+version: v${project.version}-${timestamp}-${buildNumber}
+author: SchawnnDev
