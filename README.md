@@ -1,9 +1,5 @@
 ServerStatus
 ============
-----------
-
-Description:
-------------
 
 ServerStatus is an api which servers to get server informations (motd, players...) with a simple ip address.
 
@@ -35,3 +31,4 @@ An example is available in the source code, you can see it [here](https://github
 ----------
 
 Plugin by [SchawnnDev](https://twitter.com/SchawnnDev).
+
