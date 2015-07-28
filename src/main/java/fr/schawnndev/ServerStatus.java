@@ -51,7 +51,7 @@ public class ServerStatus {
         Scanner scanner = null;
 
         try {
-            scanner = new Scanner(new URL("http://www.schawnndev.fr/hgstatus/serverstatus.php?address=" + this.address + "&port=" + port).openStream());
+            scanner = new Scanner(new URL("http://www.schawnndev.fr/lib/serverstatus.php?address=" + this.address + "&port=" + port).openStream());
         } catch (IOException e) {
             e.printStackTrace();
         }
