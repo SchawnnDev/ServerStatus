@@ -12,10 +12,12 @@
         <connection>scm:git:git@git.uhcwork.net:games/serverstatus.git</connection>
     </scm>
 
-    <repository>
-        <id>md5</id>
-        <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
-    </repository>
+    <repositories>
+        <repository>
+            <id>md5</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
 
