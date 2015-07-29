@@ -3,6 +3,7 @@ ServerStatus
 
 ServerStatus is an api which servers to get server informations (motd, players...) with a simple ip address.
 
+[![Build Status](https://travis-ci.org/SchawnnDev/ServerStatus.svg?branch=master)](https://travis-ci.org/SchawnnDev/ServerStatus)
 
 ----------
 
