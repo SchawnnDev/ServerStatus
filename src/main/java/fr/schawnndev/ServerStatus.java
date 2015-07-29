@@ -63,7 +63,7 @@ public class ServerStatus {
 
         scanner.close();
 
-        return (JSONObject) new JSONParser().parse(json);
+        return json.equals(false) ? null : (JSONObject) new JSONParser().parse(json);
     }
 
     /**
