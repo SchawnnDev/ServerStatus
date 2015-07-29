@@ -30,8 +30,9 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot</artifactId>
-            <version>1.8-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <version>1.8.6</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/spigot-1.8.6.jar</systemPath>
         </dependency>
 
     </dependencies>
