@@ -8,7 +8,17 @@
     <artifactId>ServerStatus</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <scm>
+        <connection>scm:git:git@git.uhcwork.net:games/serverstatus.git</connection>
+    </scm>
+
+    <repository>
+        <id>md5</id>
+        <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+    </repository>
+
     <dependencies>
+
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
